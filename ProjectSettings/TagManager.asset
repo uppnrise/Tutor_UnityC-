@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Quad
+  - nacar
   layers:
   - Default
   - TransparentFX
