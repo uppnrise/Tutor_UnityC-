@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 127307717}
   - component: {fileID: 127307716}
   - component: {fileID: 127307720}
+  - component: {fileID: 127307721}
   m_Layer: 0
   m_Name: QuadTagged
   m_TagString: Quad
@@ -482,6 +483,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bca877baeeb2a4e4cb965ff75aab2d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &127307721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127307715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0356726ee6bded4fa1616fe73b6e533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &172727874
@@ -1120,6 +1133,7 @@ GameObject:
   - component: {fileID: 1334674774}
   - component: {fileID: 1334674770}
   - component: {fileID: 1334674775}
+  - component: {fileID: 1334674776}
   m_Layer: 0
   m_Name: QuadCollision1
   m_TagString: Quad
@@ -1243,6 +1257,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e1670f8afb2d4f4f92a0750a56edea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1334674776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334674769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0356726ee6bded4fa1616fe73b6e533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1825279887
