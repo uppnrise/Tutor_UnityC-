@@ -11,8 +11,8 @@ public class FindingMultipleGameObjectsWithTag : MonoBehaviour
     {
         QuadArray = GameObject.FindGameObjectsWithTag("Quad");
 
-        foreach (GameObject gameObject in QuadArray)
-            Destroy(gameObject);
+        foreach (GameObject g in QuadArray)
+            Destroy(g.gameObject);
     }
 
     // Update is called once per frame
