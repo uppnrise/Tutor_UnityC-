@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 56488918}
   - component: {fileID: 56488921}
   - component: {fileID: 56488917}
+  - component: {fileID: 56488922}
   m_Layer: 0
   m_Name: QuadCollision
   m_TagString: nacar
@@ -148,7 +149,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56488916}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -246,6 +247,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &56488922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56488916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618e7572e6a2484a8ccaac6750bb9b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 0
+  value1: 0
 --- !u!1 &102102599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1119,7 @@ GameObject:
   - component: {fileID: 1334674771}
   - component: {fileID: 1334674774}
   - component: {fileID: 1334674770}
+  - component: {fileID: 1334674775}
   m_Layer: 0
   m_Name: QuadCollision1
   m_TagString: Quad
@@ -1217,6 +1233,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1334674775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334674769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1670f8afb2d4f4f92a0750a56edea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1825279887
 GameObject:
   m_ObjectHideFlags: 0
