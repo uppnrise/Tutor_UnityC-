@@ -1,5 +1,5 @@
 # Tutor_Unity_CSharp
-Unity C# tutorial implementations based on each subjects for absolute beginners.
+Unity C# tutorial implementations based on each subjects for absolute beginners. It has created with Unity 2019.1.0f2 version. So you can easily import it higher than that version.
 
 ### Subjects in This Repo
 
